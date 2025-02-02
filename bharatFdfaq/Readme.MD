@@ -108,25 +108,6 @@ Content-Type: application/json
 }
 ```
 
-### 4. Update an FAQ
-```http
-PUT /api/faqs/1/
-Content-Type: application/json
-```
-#### Request Body:
-```json
-{
-    "question": "What is a REST API?",
-    "answer": "A REST API allows applications to communicate over HTTP."
-}
-```
-
-### 5. Delete an FAQ
-```http
-DELETE /api/faqs/1/
-```
-
----
 
 ## Contribution Guidelines
 1. Fork the repository.
@@ -170,16 +151,6 @@ docker-compose exec web python manage.py migrate
 
 ---
 
-## Deployment (Optional)
-You can deploy this application to **Heroku** or **AWS** using Docker. Configure the necessary environment variables before deployment.
-
----
-
-## License
-This project is licensed under the MIT License.
-
----
-
 ## Contact
-For any issues or suggestions, feel free to create an issue or reach out at [your-email@example.com](mailto:your-email@example.com).
+For any issues or suggestions, feel free to create an issue or reach out at [sahu9918as05@gmail.com](mailto:sahu9918as05@gmail.com).
 
