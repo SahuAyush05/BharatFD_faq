@@ -108,25 +108,6 @@ Content-Type: application/json
 }
 ```
 
-
-## Contribution Guidelines
-1. Fork the repository.
-2. Create a new branch for your feature:
-   ```sh
-   git checkout -b feature-new-feature
-   ```
-3. Make your changes and commit:
-   ```sh
-   git commit -m "feat: Add support for Spanish translations"
-   ```
-4. Push the changes:
-   ```sh
-   git push origin feature-new-feature
-   ```
-5. Open a Pull Request.
-
----
-
 ## Code Formatting
 - Follow PEP8 guidelines.
 - Use `flake8` for linting:
@@ -139,14 +120,14 @@ Content-Type: application/json
 
 ## Docker Setup
 
-### 1. Build and Run the Application
+### 1. Build
 ```sh
-docker-compose up --build
+docker-compose build
 ```
 
-### 2. Run Migrations Inside the Container
+### 2. Run the Container
 ```sh
-docker-compose exec web python manage.py migrate
+docker-compose up
 ```
 
 ---
